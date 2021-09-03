@@ -28,10 +28,33 @@
 // console.log(fruta);
 // alert(fruta.nome + " tem a cor " + fruta.cor);
 
-var frutas = [
-  { nome: "banana", cor: "amarela" },
-  { nome: "maça", cor: "vermelha" },
-  { nome: "pera", cor: "verde" },
-];
-console.log(frutas);
-alert("A " + frutas[01].nome + " é da cor " + frutas[01].cor);
+// var frutas = [
+//   { nome: "banana", cor: "amarela" },
+//   { nome: "maça", cor: "vermelha" },
+//   { nome: "pera", cor: "verde" },
+// ];
+// console.log(frutas);
+// alert("A " + frutas[01].nome + " é da cor " + frutas[01].cor);
+
+// var idade = prompt("Qual a sua idade?");
+
+// if (idade >= 18) {
+//   alert("Entrada liberada! Seja vem vindo");
+// } else {
+//   alert("Entrada não liberada!");
+// }
+
+// var count = 0;
+// while (count < 5) {
+//   console.log(count);
+//   alert(count);
+//   count++;
+// }
+
+// var count;
+// for (count = 0; count <= 5; count++);
+// alert(count);
+
+var d = new Date();
+
+alert(d.getFullYear());
