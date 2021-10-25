@@ -6,8 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body>
+  <body onload="load()">
     <h1>Hello World! :)</h1>
+
+    <button type="button" onclick="clicou()">Clique aqui!</button>
+    <h3 id="agradecimento" onclick="redirecionar()"></h3>
+    <h3 id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">
+      Passe o mouse aqui!
+    </h3>
+    <h3 id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">
+      Passe o mouse aqui!
+    </h3>
+
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>

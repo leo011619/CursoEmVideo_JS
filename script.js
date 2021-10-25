@@ -71,14 +71,43 @@
 
 // alert(setReplace("Vai Japão!", "Japão", "Brasil"));
 
-function validaIdade(idade) {
-  var validar;
-  if (idade >= 18) {
-    validar = true;
-  } else {
-    validar = false;
-  }
-  return validar;
+// function validaIdade(idade) {
+//   var validar;
+//   if (idade >= 18) {
+//     validar = true;
+//   } else {
+//     validar = false;
+//   }
+// return validar;
+// }
+// var idade = prompt("Qual sua idade?");
+// console.log(validaIdade(idade));
+
+function clicou() {
+  document.getElementById("agradecimento").innerHTML =
+    "<b>Obrigado por clicar :D</b>";
+  console.log(document.getElementById("agradecimento"));
 }
-var idade = prompt("Qual sua idade?");
-console.log(validaIdade(idade));
+function redirecionar() {
+  window.open("https://www.linkedin.com/in/leonardo-ferraz-186620171/");
+}
+
+function trocar(element) {
+  //   document.getElementById("mousemove").innerHTML =
+  //     "Obrigado por passar o mouse!";
+  element.innerHTML = "Obrigado por passar o mouse!";
+  //alert("trocar texto");
+}
+
+function voltar(element) {
+  document.getElementById("mousemove").innerHTML = "Passe o mouse aqui!";
+  element.innerHTML = "Passe o mouse aqui!";
+}
+
+function load() {
+  alert("Pagina carregada! Bem vindo");
+}
+
+function change(element) {
+  console.log(element.value);
+}
