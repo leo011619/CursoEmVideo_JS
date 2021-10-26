@@ -1,4 +1,4 @@
-var pais = "EUA";
+var pais = "Brasil";
 console.log(`Natural de ${pais}`);
 if (pais == "Brasil") {
   console.log("Você é Brasileiro");
